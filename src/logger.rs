@@ -3,7 +3,7 @@ use std::fs::{File, OpenOptions};
 use std::io::{self, Write};
 use std::path::Path;
 
-/// Logger struct for managing log files
+/// `Logger` struct for managing log files
 pub struct Logger {
     file: File,
 }
